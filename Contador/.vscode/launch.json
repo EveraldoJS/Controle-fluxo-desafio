@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Contador",
+      "request": "launch",
+      "mainClass": "Contador",
+      "projectName": "Contador_ee29c2f7"
+    },
+    {
+      "version": "0.2.0",
+      "configurations": [
+        {
+          "type": "node",
+          "request": "launch",
+          "name": "Executar Programa",
+          "skipFiles": [
+            "<node_internals>/**"
+          ],
+          "program": "${workspaceFolder}/arquivoCodigo.js"
+        }
+      ]
+    }
+  ]
+}
